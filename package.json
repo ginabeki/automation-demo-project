@@ -1,19 +1,27 @@
 {
   "name": "automation-demo-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "Demo project for GitHub Actions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.21.1"
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^9.15.0",
-    "jest": "^29.7.0"
+    "eslint": "^8.42.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.0",
+    "supertest": "^6.3.4"
   }
 }
