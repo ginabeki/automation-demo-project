@@ -18,7 +18,7 @@ jobs:
     # Define the strategy for running tests across different Node.js versions
     strategy:
       matrix:
-        node-version: [16.x, 18.x] # You can add more versions if needed
+        node-version: [18.x, 20.x] # You can add more versions if needed
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
@@ -26,7 +26,7 @@ jobs:
 
       # Setup Node.js environment
       - name: Setup Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm" # Caches npm dependencies
