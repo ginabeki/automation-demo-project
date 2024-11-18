@@ -1,7 +1,7 @@
 # 🚀Github Actions Automation Demo
 A demonstration of automated workflow implementation using GitHub Actions, featuring continuous integration and deployment with Vercel.
 
-🎯 ## Overview
+## 🎯 Overview
 This project demonstrates:
 
 - Automated testing and deployment using GitHub Actions
@@ -9,7 +9,7 @@ This project demonstrates:
 - Continuous Deployment (CD) to Vercel
 - Express.js API with automated testing
 
-🛠️ ## Tech Stack
+## 🛠️ Tech Stack
 
 - Node.js
 - Express.js
@@ -17,7 +17,7 @@ This project demonstrates:
 - GitHub Actions
 - Vercel (Deployment)
 
-📋 ## Prerequisites
+## 📋 Prerequisites
 Before you begin, ensure you have:
 
 - Node.js (v18 or higher)
@@ -25,59 +25,65 @@ Before you begin, ensure you have:
 - A GitHub account
 - A Vercel account (free tier works)
 
-🚀 Quick Start
+## 🚀 Quick Start
 
 Clone the repository
+``` bash
 git clone https://github.com/ginabeki/automation-demo-project.git
 cd automation-demo-project
-
-Install dependencies
-
-bashCopynpm install
-
-Run locally
-
-bashCopynpm run dev
-
-Run tests
-
-🔄 CI/CD Pipeline
+```
+**Install dependencies**
+```bash
+npm install
+```
+**Run locally**
+```bash
+npm run dev
+```
+**Run tests**
+```bash
+npm test
+```
+## 🔄 CI/CD Pipeline
 This project implements a complete CI/CD pipeline:
-Continuous Integration
+**Continuous Integration**
+- Automated testing on push
+- Code quality checks
+- Dependency installation verification
 
-Automated testing on push
-Code quality checks
-Dependency installation verification
+**Continuous Deployment**
+- Automatic deployment to Vercel
+- Production and preview deployments
+- Secure token handling
 
-Continuous Deployment
+## 🧪 Testing
 
-Automatic deployment to Vercel
-Production and preview deployments
-Secure token handling
+Run the test suite using these commands:
 
-🧪 Testing
-Run the test suite:
-bashCopy# Run tests
+```bash
+# Run tests
 npm test
 
 # Run tests with coverage
 npm run test:coverage
-📦 Deployment
+```
+
+## 📦 Deployment
 The project automatically deploys to Vercel when:
 
-Code is pushed to main branch
-Pull requests are merged to main
+- Code is pushed to main branch
+- Pull requests are merged to main
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 👥 Author
-Gina Beki
+- Gina Beki
 
-GitHub: @ginabeki
-LinkedIn: ginabeki
+- GitHub: @ginabeki
+- LinkedIn: ginabeki
 
-🙏 Acknowledgments
+## 🙏 Acknowledgments
 
-GitHub Actions documentation
-Vercel deployment guides
-Express.js community
+- [GitHub Actions documentation](https://docs.github.com/en/actions)
+- [Vercel deployment guides](https://vercel.com/docs/deployments/overview)
+- [Express.js community](https://expressjs.com/en/starter/installing.html)
